@@ -38,7 +38,6 @@ pre, code {
 }
 </style>
 
-<!-- Title Slide -->
 # Product Documentation  
 ### AwesomeApp v1.0  
 **Author:** 22f3003000@ds.study.iitm.ac.in
@@ -75,3 +74,81 @@ section {
   background: #0f1724;
   color: #eaf4ff;
 }
+```
+
+This entire deck uses a custom theme defined at the top.
+
+---
+
+# Math (Algorithmic Complexity)
+
+Inline math:  
+\( O(n \cdot d) \)
+
+Block math:
+
+$$
+T(n, d) = O(n \cdot d)
+$$
+
+For approximate search:
+
+$$
+T_{\text{HNSW}} \approx O(\log n)
+$$
+
+---
+
+---
+background-image: url("https://images.unsplash.com/photo-1526404098898-83c0c440b0c5?auto=format&fit=crop&w=1400&q=80")
+background-size: cover
+background-position: center
+class: lead
+
+# System Architecture  
+### (Background image slide)
+
+---
+
+# Metadata Example
+```yaml
+---
+marp: true
+theme: default
+paginate: true
+---
+```
+
+---
+
+# Raw GitHub URL Format
+
+Use the following pattern:
+
+```
+https://raw.githubusercontent.com/[USER]/[REPO]/main/slides.md
+```
+
+Example:
+
+```
+https://raw.githubusercontent.com/your-username/awesome-docs/main/slides.md
+```
+
+---
+
+# Exporting (No Terminal Needed)
+<div class="card">
+1. Open **Marp for VS Code** or https://marp.app  
+2. Open/paste `slides.md`  
+3. Click **Export** → choose PDF, PPTX, or HTML  
+4. Done!
+</div>
+
+---
+
+# Thank You!
+Email for queries:  
+**22f3003000@ds.study.iitm.ac.in**
+
+Page numbers appear automatically due to `paginate: true`.
