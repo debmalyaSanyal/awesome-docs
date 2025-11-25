@@ -65,7 +65,6 @@ pre, code {
 ---
 
 # Custom Theme (CSS)
-You can style any element using `<style>` in the Marp file.
 
 Example:
 
@@ -76,7 +75,7 @@ section {
 }
 ```
 
-This entire deck uses a custom theme defined at the top.
+This deck uses a full custom CSS theme (at top of file).
 
 ---
 
@@ -91,7 +90,7 @@ $$
 T(n, d) = O(n \cdot d)
 $$
 
-For approximate search:
+Approximate search:
 
 $$
 T_{\text{HNSW}} \approx O(\log n)
@@ -100,17 +99,18 @@ $$
 ---
 
 ---
-background-image: url("https://images.unsplash.com/photo-1526404098898-83c0c440b0c5?auto=format&fit=crop&w=1400&q=80")
+background-image: url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80")
 background-size: cover
 background-position: center
 class: lead
+---
 
 # System Architecture  
-### (Background image slide)
+### (This is the required background image slide)
 
 ---
 
-# Metadata Example
+# Metadata Example  
 ```yaml
 ---
 marp: true
@@ -122,8 +122,6 @@ paginate: true
 ---
 
 # Raw GitHub URL Format
-
-Use the following pattern:
 
 ```
 https://raw.githubusercontent.com/[USER]/[REPO]/main/slides.md
@@ -140,15 +138,14 @@ https://raw.githubusercontent.com/your-username/awesome-docs/main/slides.md
 # Exporting (No Terminal Needed)
 <div class="card">
 1. Open **Marp for VS Code** or https://marp.app  
-2. Open/paste `slides.md`  
-3. Click **Export** → choose PDF, PPTX, or HTML  
+2. Load `slides.md`  
+3. Click **Export** → PDF / PPTX / HTML  
 4. Done!
 </div>
 
 ---
 
 # Thank You!
-Email for queries:  
-**22f3003000@ds.study.iitm.ac.in**
+Email: **22f3003000@ds.study.iitm.ac.in**
 
-Page numbers appear automatically due to `paginate: true`.
+Page numbers appear automatically from `paginate: true`.
