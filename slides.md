@@ -2,97 +2,101 @@
 marp: true
 paginate: true
 theme: default
-class: lead
-style: |
-  section {
-    font-family: "Arial", sans-serif;
-  }
-  h1, h2, h3 {
-    color: #0055aa;
-  }
+size: 16:9
 ---
 
-# Product Documentation Presentation  
-**Email:** 22f3003000@ds.study.iitm.ac.in**
-
-Welcome to the technical documentation deck created using **Marp**.
+# Product Documentation  
+**Email:** 22f3003000@ds.study.iitm.ac.in
 
 ---
 
-# Custom Theme Example
-
-This slide shows:
-- Page numbers  
-- Custom styles  
-- Default theme overridden with custom colors  
-
+<!-- Local directive for background image on this slide -->
 ---
-
-<!-- Guaranteed working background image slide -->
----
-marp: true
-background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1400&q=80")
-background-size: cover
-background-position: center
+backgroundImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80"
+backgroundSize: cover
+backgroundPosition: center
 class: lead
 ---
 
-# Background Image Slide  
-This slide **always passes validation** because it uses a public image URL.
+# System Architecture  
+This slide uses a background image via Marp local directives.
 
 ---
 
-# Mathematical Notation
-
-Inline:  
-Complexity = \( O(n \cdot d) \)
-
-Block math:
-
-$$
-T(n) = O(n \log n)
-$$
+<style>
+section {
+  font-family: "Arial", sans-serif;
+  color: #ffffff;
+  background-color: #0a0f1a;
+}
+h1 {
+  color: #00aaff;
+}
+.card {
+  padding: 20px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
+pre, code {
+  background: rgba(255,255,255,0.1);
+  padding: 6px;
+  border-radius: 6px;
+  color: #e0e0e0;
+}
+</style>
 
 ---
 
-# Custom Styling
+# Agenda  
+- Goals  
+- Theme & Style  
+- Math / Complexity  
+- GitHub Raw URL  
+- Export Options  
 
-This slide uses extra styling:
+---
 
-- Blue headers  
-- Sans-serif body text  
-- Page numbering enabled  
-- Uses a custom CSS section in front matter  
+# Mathematical Complexity
+
+Inline: \( O(n \cdot d) \)  
+
+Block:
+
+$$
+T(n, d) = O(n \cdot d)
+$$
+
+And for approximate NN search:
+
+$$
+T_{\text{HNSW}} \approx O(\log n)
+$$
 
 ---
 
 # Export Options
 
-This Markdown file can be exported to:
+This deck can be exported via:
 
-- PDF  
-- HTML  
-- PPTX  
+- **Marp Web**  
+- **VS Code + Marp extension**  
+- **Marp CLI**
 
-All using **Marp Web**, **VS Code Marp extension**, or **GitHub Actions**.
+You can generate **PDF**, **HTML**, or **PPTX**.
 
 ---
 
-# Version-Control Friendly
+# Version Control Friendly
 
-- This file (`slides.md`) is stored in GitHub  
-- All updates are tracked  
-- Works with CI/CD pipelines  
+- Stored in GitHub (`slides.md`)  
+- Fully versioned  
+- Collaborators can edit, and you can use CI/CD to publish exports
 
-**Raw GitHub URL:**
-
+**Raw URL:**  
 https://raw.githubusercontent.com/debmalyaSanyal/awesome-docs/main/slides.md
 
-
 ---
 
-# Thank You!
-
-Feel free to modify or extend this deck.  
-Need help with CI/CD, themes, or automation?  
-Just ask!
+# Thank You!  
+If you have questions or want help, reach me at:  
+**22f3003000@ds.study.iitm.ac.in**
