@@ -87,12 +87,11 @@ Raw link example:
 
 https://raw.githubusercontent.com/debmalyaSanyal/awesome-docs/main/slides.md
 
-
 ---
 
 # Thank You!
 
 If you want, I can also add:
-- GitHub Actions to auto-generate PDFs
-- A custom Marp theme file
+- GitHub Actions to auto-generate PDFs  
+- A custom Marp theme file  
 - Advanced slide layouts
