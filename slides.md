@@ -69,7 +69,7 @@ PV = \sum_{t=1}^{T} \frac{CF_t}{(1+r)^t}
 
 <!-- backgroundImage -->
 
-![bg](https://images.unsplash.com/photo-1526378728052-4f5b6a63b68e?auto=format\&fit=crop\&w=1400\&q=60)
+![bg](https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80)
 
 # **Strategic Focus Areas**
 
