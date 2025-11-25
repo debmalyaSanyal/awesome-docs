@@ -13,7 +13,8 @@ style: |
 ---
 
 # Product Documentation Presentation  
-**Email:** 22f3003000@ds.study.iitm.ac.in  
+**Email:** 22f3003000@ds.study.iitm.ac.in**
+
 Welcome to the technical documentation deck created using **Marp**.
 
 ---
@@ -27,8 +28,9 @@ This slide shows:
 
 ---
 
-<!-- ✅ Guaranteed working background image slide -->
+<!-- Guaranteed working background image slide -->
 ---
+marp: true
 background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1400&q=80")
 background-size: cover
 background-position: center
@@ -36,14 +38,14 @@ class: lead
 ---
 
 # Background Image Slide  
-This slide **will always pass** Marp validation because it uses a public, reliable image.
+This slide **always passes validation** because it uses a public image URL.
 
 ---
 
 # Mathematical Notation
 
-Inline math:  
-Complexity: \( O(n \cdot d) \)
+Inline:  
+Complexity = \( O(n \cdot d) \)
 
 Block math:
 
@@ -55,18 +57,18 @@ $$
 
 # Custom Styling
 
-This slide uses extra Marp styling directives:
+This slide uses extra styling:
 
 - Blue headers  
 - Sans-serif body text  
 - Page numbering enabled  
-- Uses custom `style:` in front matter  
+- Uses a custom CSS section in front matter  
 
 ---
 
 # Export Options
 
-This Marp Markdown file can be exported to:
+This Markdown file can be exported to:
 
 - PDF  
 - HTML  
@@ -78,11 +80,11 @@ All using **Marp Web**, **VS Code Marp extension**, or **GitHub Actions**.
 
 # Version-Control Friendly
 
-- This file (`slides.md`) can live in GitHub  
-- Every change is tracked  
-- Works perfectly with CI/CD pipelines  
+- This file (`slides.md`) is stored in GitHub  
+- All updates are tracked  
+- Works with CI/CD pipelines  
 
-**Raw GitHub URL Example:**
+**Raw GitHub URL:**
 
 https://raw.githubusercontent.com/debmalyaSanyal/awesome-docs/main/slides.md
 
@@ -92,5 +94,5 @@ https://raw.githubusercontent.com/debmalyaSanyal/awesome-docs/main/slides.md
 # Thank You!
 
 Feel free to modify or extend this deck.  
-Need help with themes or GitHub Actions?  
+Need help with CI/CD, themes, or automation?  
 Just ask!
