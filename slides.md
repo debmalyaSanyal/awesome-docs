@@ -1,40 +1,77 @@
 ---
 marp: true
-paginate: true
 theme: default
+paginate: true
+size: 16:9
 ---
 
-# Title Slide
-Email: 22f3003000@ds.study.iitm.ac.in
+<!-- Custom CSS theme -->
+<style>
+section {
+  background: #0f1724;
+  color: #eaf4ff;
+  font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+}
+
+h1 {
+  color: #ffd166;
+  font-size: 48px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  color: #7dd3fc;
+}
+
+.card {
+  padding: 18px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 0 18px rgba(0,0,0,0.3);
+}
+
+pre, code {
+  background: rgba(255,255,255,0.05);
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: #f8fafc;
+}
+</style>
+
+<!-- Title Slide -->
+# Product Documentation  
+### AwesomeApp v1.0  
+**Author:** 22f3003000@ds.study.iitm.ac.in
 
 ---
 
-# Normal Slide
-This slide uses plain content.
+# Agenda
+- Documentation goals  
+- Theme customization  
+- Math examples  
+- Background image usage  
+- Raw GitHub URL format  
+- Export workflow  
 
 ---
 
-<!-- Working background image slide -->
----
-background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80")
-background-size: cover
-background-position: center
-class: lead
-
-# Background Image Slide
-This slide is guaranteed to work because the image URL is public.
+# Maintainable Documentation
+<div class="card">
+- Stored in GitHub (version control)  
+- Markdown-based  
+- Export to **PDF**, **PPTX**, **HTML**  
+- Easy collaboration  
+</div>
 
 ---
 
-# Math Slide
-Algorithmic complexity:
+# Custom Theme (CSS)
+You can style any element using `<style>` in the Marp file.
 
-Inline: \( O(n \cdot d) \)
+Example:
 
-Block:
-
-$$
-T(n) = O(n \log n)
-$$
-
----
+```css
+section {
+  background: #0f1724;
+  color: #eaf4ff;
+}
